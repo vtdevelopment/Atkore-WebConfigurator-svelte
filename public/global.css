@@ -1,0 +1,27 @@
+:root {
+  --atkore-green: #47aa42;
+  --atkore-green-light: #b7d6a3;
+  --atkore-gray: #555555;
+  --atkore-gray-light: #ced4da;
+  --atkore-background: #eeeeee;
+
+  --disabled-text: #00000042;
+  --disabled-bg: #0000001f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  /* 1 rem is 10px, 10px/16px = 62.5%, 16px is browser default font size */
+  font-size: 62.5%;
+}
